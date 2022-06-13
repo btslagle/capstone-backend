@@ -28,19 +28,19 @@ public class Vehicle {
   private String model;
 
   @Column(name = "year")
-  private Number  year;
+  private Double  year;
 
   @Column(name = "condition")
   private String condition;
 
   @Column(name = "term")
-  private Number term;
+  private int term;
 
   @Column(name = "monthly")
-  private  Number monthly;
+  private  Double  monthly;
 
   @Column(name = "mileage")
-  private Number mileage;
+  private Double mileage;
 
   @Column(name = "location")
   private String location;
